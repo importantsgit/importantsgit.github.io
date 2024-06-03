@@ -106,49 +106,35 @@ author:
   name: "이재훈"
   avatar: "/assets/images/avator.png"
   bio: "iOS를 좋아하는 개발자입니다."
-  location: "South Korea"
-  #email: ljhjohn1@gmail.com
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fas fa-fw fa-envelope"
       url: "ljhjohn1@gmail.com"
     - label: "GitHub"
-      icon: "fas fa-fw fa-link"
-      url: https://github.com/importantsgit"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: https://github.com/importantsgit"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UCBzpjeh9Dep6s4fE5j-f2aA"
+    - label: "Profile"
+      #icon: #"fa-regular fa-clipboard"
+      url: "https://importantsdnd.notion.site/cf7070a9ebc1478786373f07b83b8c84?pvs=4"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "ljhjohn1@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+      url: https://github.com/importantsgit"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UCBzpjeh9Dep6s4fE5j-f2aA"
+    - label: "Notion"
+      #icon: #"fa-regular fa-clipboard"
+      url: "https://importantsdnd.notion.site/8c9312c6e9754157847a0f5bdcc865f9?v=34acd1dbf8ec4c4da43022f9a6502538&pvs=4"
 
 # Reading Files
 include:
@@ -214,7 +200,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: #Asia/Seoul
 
 # Plugins (previously gems:)
 plugins:
@@ -248,17 +234,17 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+# # https://github.com/jekyll/jekyll-archives
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 # HTML Compression
 # - https://jch.penibelst.de/
