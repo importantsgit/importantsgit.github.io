@@ -1,31 +1,33 @@
 # main links
 main:
-  - title: "Category"
+  - title: "Home"
+    url: https://importantsgit.github.io/
+
+  - title: "About"
+    url: https://importantsdnd.notion.site/cf7070a9ebc1478786373f07b83b8c84?pvs=4
+
+  - title: "GitHub"
+    url: https://github.com/importantsgit
+
+  - title: "Categories"
     url: /categories/
-  - title: "Tag"
-    url: /tags/
-  - title: "Search"
-    url: /search/
 
-docs:
-  - title: "대목차1"
-    children:
-      - title: "Category"
-        url: /categories/
-      - title: "Tag"
-        url: /tags/
+  # - title: "Projects"
+  #   url: /projects/
 
-  - title: "대목차2"
-    children:
-      - title: "Category"
-        url: /categories/
-      - title: "Tag"
-        url: /tags/
-    # - title: "About"
-    #   url: https://mmistakes.github.io/minimal-mistakes/about/
-    # - title: "Sample Posts"
-    #   url: /year-archive/
-    # - title: "Sample Collections"
-    #   url: /collection-archive/
-    # - title: "Sitemap"
-    #   url: /sitemap/
+  # - title: "Categories"
+  #   url: /categories/
+
+# sidebar navigation (categories)
+# 2022.02.15 sidebar update : simple ver.
+categories:
+  - title: "Swift"
+    url: /categories/swift/
+  - title: "SwiftUI"
+    url: /categories/swiftui/
+  - title: "Project"
+    url: /categories/project/
+  - title: "Today"
+    url: /categories/today/
+  - title: "Etc"
+    url: /categories/etc/
