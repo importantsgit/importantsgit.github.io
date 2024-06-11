@@ -12,22 +12,30 @@ main:
   - title: "Categories"
     url: /categories/
 
+counts:
+  - title: "category"
+    use: true
+  - title: "태그"
+    use: true
+
   # - title: "Projects"
   #   url: /projects/
-
-  # - title: "Categories"
-  #   url: /categories/
-
-# sidebar navigation (categories)
-# 2022.02.15 sidebar update : simple ver.
-categories:
-  - title: "Swift"
-    url: /categories/swift/
-  - title: "SwiftUI"
-    url: /categories/swiftui/
-  - title: "Project"
-    url: /categories/project/
-  - title: "Today"
-    url: /categories/today/
-  - title: "Etc"
-    url: /categories/etc/
+# categories:
+#   - title: "Swift"
+#     url: /categories/swift/
+#     use: true
+#   - title: "SwiftUI"
+#     url: /categories/swiftui/
+#     use: true
+#   - title: "Project"
+#     url: /categories/project/
+#     use: true
+#   - title: "Today"
+#     url: /categories/today/
+#     use: true
+#   - title: "Algorithm"
+#     url: /categories/algorithm/
+#     use: true
+#   - title: "Etc"
+#     url: /categories/etc/
+#     use: true
